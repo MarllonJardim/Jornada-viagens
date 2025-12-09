@@ -1,46 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/style.css" />
+    <title>Jornada Viagens</title>
+  </head>
 
-  <title>Jornada Viagens</title>
-</head>
+  <body>
+    <header>
+      <a class="logo" href="index.html" title="voltar para a página inicial">
+        <img
+          class="img-mobile"
+          src="img/Bussola-jornada-branca.png"
+          alt="Bussola do logo Jornada viagens na cor branca"
+        />
 
-<body>
-  <header>
-    <a class="logo" href="index.html" title="voltar para a página inicial">
+        <img
+          class="img-desktop"
+          src="img/bussula-texto-jornada-branca.png"
+          alt="logo Jornada viagens na cor branca"
+        />
+      </a>
 
-      <img class="img-mobile" src="img/Bussola-jornada-branca.png" alt="Bussola do logo Jornada viagens na cor branca" />
+      <div class="navigation-menu">
+        <label for="menu"><img src="img/menu.png" alt="menu" /></label>
+        <input type="checkbox" id="menu" hidden />
 
-      <img class="img-desktop" src="img/bussula-texto-jornada-branca.png" alt="logo Jornada viagens na cor branca">
-    </a>
-
-    <div class="navigation-menu">
-      <label for="menu"><img src="img/menu.png" alt="menu" /></label>
-      <input type="checkbox" id="menu" hidden>
-
-
-
-      <nav>
-        <ul class="list-links">
-          <li><a href="blog.html" target="_blank " title="Acessar a página de blog">Blog</a></li>
-          <li><a href="pacotes.html" target="_blank title=" Acessar a página de pacotes de viagens">Pacotes de
-              viagem</a></li>
-          <li><a href="contato.html" target="_blanktitle=" Acessar a página de contato">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-
-  </header>
-  <section class="hero">
-    <div class="hero-img"></div>
-    <h2>
-      Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades, cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!
-    </h2>
-  </section>
-</body>
-
+        <nav>
+          <ul class="list-links">
+            <li>
+              <a
+                href="blog.html"
+                target="_blank "
+                title="Acessar a página de blog"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="pacotes.html"
+                target="_blank"
+                title=" Acessar a página de pacotes de viagens"
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li>
+              <a
+                href="contato.html"
+                target="_blank"
+                title=" Acessar a página de contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-img"></div>
+      <h2>
+        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
+        à seleção das atividades, cuidamos de todos os detalhes para que você
+        aproveite ao máximo cada momento da sua jornada!
+      </h2>
+    </section>
+    <section class="offers">
+      <div class="section_titles">
+        <h2>Ofertas da semana</h2>
+        <hr />
+      </div>
+      <div class="offers_cards">
+        <article class="card">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>
+              Japão <br />
+              <span>R$ 4000</span>
+            </h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+  </body>
 </html>
