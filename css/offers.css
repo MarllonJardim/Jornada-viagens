@@ -33,16 +33,36 @@
   display: inline-block;
 }
 
-@media screen and (min-width: 1024px) {
-    .card{
-        width: 588px;
-        height: 308px;
-    }
-    .card header h3 {
-  font-size: 48px;
+.card.japao {
+  background: url(../img/bg-card-japao.jpg) no-repeat;
+  background-size: cover;
 }
 
-.card header span {
-  font-size: 40px;
+.card.san-andreas {
+  background: url(../img/bg-card-san-andreas.jpg) no-repeat;
+  background-size: cover;
 }
+
+.card.manaus {
+  background: url(../img/bg-card-manaus.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.paraiba {
+  background: url(../img/bg-card-paraiba.jpgcl) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card header span {
+    font-size: 40px;
+  }
 }
